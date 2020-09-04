@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head><title></title>
+  <script type="text/javascript" >
+       Function reloj(){
+           Var fecha new Date();
+           Var hora=fecha.getHours();
+           Var min=Fecha.getMinutes();
+           Var sec=Fecha.getSeconds();
+           Var reca=setTimeout('reloj()', 500);
+           document.getElementById('print').innerHTML = hora + ":" + min + ":" + sec;
+       } 
+</script>
+</head>
+<body onload="reloj()">
+<script type="text/javascript">
+</script>
+<div id="print"></div>
+<h1>HOLA MUNDO..... </h1>
+<?php
+echo "Hola Mundo bello";
+?>
+</body>
+</html>
